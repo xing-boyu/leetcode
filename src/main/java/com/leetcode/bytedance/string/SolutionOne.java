@@ -1,4 +1,4 @@
-package com.leetcode.bytedance;
+package com.leetcode.bytedance.string;
 
 /**
  * 题目：无重复字符的最长子串
