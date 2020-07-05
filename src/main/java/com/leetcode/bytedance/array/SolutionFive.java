@@ -14,6 +14,9 @@ package com.leetcode.bytedance.array;
  *
  * 说明:
  * 你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。
+ *
+ * 解题思路：1. 选择排序找到第k大个元素
+ * 2. 快速排序的思想是找到一个位置左边位置值的都比其小，右边位置的值都比其大，所以刚好如果index == n-k 就是第k大个元素
  */
 public class SolutionFive {
 
@@ -34,9 +37,39 @@ public class SolutionFive {
         return nums[n-k];
     }
 
+    public int findKthLargestQuickSort(int[] nums, int k) {
+        return quickSort(nums, 0, nums.length, nums.length-k);
+    }
+
+    private int quickSort(int[] nums, int start, int end, int k) {
+        int p = nums[end-1];
+        int i = start;
+        for(int j=start; j<end; ++j) {
+            if(nums[j] < p) {
+                swap(nums, i, j);
+                i++;
+            }
+        }
+        swap(nums, i, end-1);
+
+        if(i == k) {
+            return nums[i];
+        } else if(i < k) {
+            return quickSort(nums, i+1, end, k);
+        } else {
+            return quickSort(nums, start, i, k);
+        }
+    }
+
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
+
     public static void main(String[] args) {
         int[] nums = new int[]{3,2,3,1,2,4,5,5,6};
-        System.out.println(new SolutionFive().findKthLargest(nums, 4));
+        System.out.println(new SolutionFive().findKthLargestQuickSort(nums, 4));
     }
 
 }
