@@ -1,4 +1,4 @@
-package com.leetcode.bytedance.solution;
+package com.leetcode.bytedance.solution.binarysearch;
 
 /**
  * https://leetcode-cn.com/problems/guess-number-higher-or-lower/submissions/
