@@ -6,6 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/243/array-and-sorting/1046/
+ *
  * 题目: 合并区间
  *
  * 给出一个区间的集合，请合并所有重叠的区间。
@@ -24,7 +26,7 @@ import java.util.List;
  * 解题思路：按照第一个数字进行排序，最终遍历一遍数组得到结果
  *
  */
-public class SolutionNine {
+public class 合并区间 {
     public int[][] merge(int[][] intervals) {
         if(intervals == null || intervals.length == 0 || intervals[0].length == 0) {
             return new int[0][0];
@@ -55,7 +57,7 @@ public class SolutionNine {
 
     public static void main(String[] args) {
         int[][] intervals = new int[][]{{1,3},{2,6}};
-        int[][] r = new SolutionNine().merge(intervals);
+        int[][] r = new 合并区间().merge(intervals);
         System.out.println(Arrays.deepToString(r));
     }
 }

@@ -1,4 +1,4 @@
-package com.leetcode.bytedance.solution.binarysearch;
+package com.leetcode.binarysearch;
 
 /**
  * https://leetcode-cn.com/problems/single-element-in-a-sorted-array/

@@ -1,6 +1,8 @@
 package com.leetcode.bytedance.string;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/242/string/1014/
+ *
  * 题目：编写一个函数来查找字符串数组中的最长公共前缀。
  *
  * 如果不存在公共前缀，返回空字符串 ""。
@@ -19,7 +21,7 @@ package com.leetcode.bytedance.string;
  *
  * 解题思路：遍历第一个字符串，不断增加第一个字符串的前缀长度，直到不是其它字符串的前缀其得到结果
  */
-public class SolutionTwo {
+public class 最长公共前缀 {
 
     public String longestCommonPrefix(String[] strs) {
         if(strs == null || strs.length == 0) {
@@ -49,7 +51,7 @@ public class SolutionTwo {
     }
 
     public static void main(String[] args) {
-        System.out.println(new SolutionTwo().longestCommonPrefix(new String[]{"c","acc","ccc"}));
+        System.out.println(new 最长公共前缀().longestCommonPrefix(new String[]{"c","acc","ccc"}));
     }
 
 }

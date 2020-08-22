@@ -1,6 +1,8 @@
 package com.leetcode.bytedance.string;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/242/string/1012/
+ *
  * 题目：无重复字符的最长子串
  *
  * 给定一个字符串，请你找出其中不含有重复字符的 最长子串 的长度。
@@ -24,7 +26,7 @@ package com.leetcode.bytedance.string;
  * 解题思路：sb标识已经匹配完成的子串，当出现重复字符串说明已经达到当前子串的最大长度，记录后再往后继续匹配，
  * 当遍历完字符串后拿到子串中最长的长度输出
  */
-public class SolutionOne {
+public class 无重复字符的最长子串 {
 
     public int lengthOfLongestSubstring(String s) {
         int maxLength = 0;
@@ -50,7 +52,7 @@ public class SolutionOne {
     }
 
     public static void main(String[] args) {
-        System.out.println(new SolutionOne().lengthOfLongestSubstring("aab"));
+        System.out.println(new 无重复字符的最长子串().lengthOfLongestSubstring("aab"));
     }
 
 }

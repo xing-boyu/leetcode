@@ -1,6 +1,8 @@
 package com.leetcode.bytedance.array;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/243/array-and-sorting/1017/
+ *
  * 题目：搜索旋转排序数组
  *
  * 假设按照升序排序的数组在预先未知的某个点上进行了旋转。
@@ -21,11 +23,11 @@ package com.leetcode.bytedance.array;
  * 输入: nums = [4,5,6,7,0,1,2], target = 3
  * 输出: -1
  *
- * 解题思路：开始倒排的数组位置为d,  数组位置转化：i->(i+d)%n，位置为i的数据位置变化后为(i+d)%n
+ * 解题思路：二分查找的应用，开始倒排的数组位置为d,  数组位置转化：i->(i+d)%n，位置为i的数据位置变化后为(i+d)%n
  * 通过二分查找的方式进行查找
  *
  */
-public class SolutionThree {
+public class 搜索旋转排序数组 {
 
     public int search(int[] nums, int target) {
 
@@ -65,7 +67,7 @@ public class SolutionThree {
 
     public static void main(String[] args) {
         int[] nums = new int[]{1};
-        System.out.println(new SolutionThree().search(nums, 0));
+        System.out.println(new 搜索旋转排序数组().search(nums, 0));
     }
 
 }

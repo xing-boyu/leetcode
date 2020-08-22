@@ -1,6 +1,7 @@
 package com.leetcode.bytedance.array;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/243/array-and-sorting/1034/
  *
  * 题目：岛屿的最大面积
  *
@@ -34,7 +35,7 @@ package com.leetcode.bytedance.array;
  * 找出其中最大深度遍历层数即是最大的岛屿面积
  *
  */
-public class SolutionTwo {
+public class 岛屿的最大面积 {
 
     public int maxAreaOfIsland(int[][] grid) {
         boolean[][] f = new boolean[50][50];
@@ -86,7 +87,7 @@ public class SolutionTwo {
 
     public static void main(String[] args) {
         int[][] p = new int[][] {{1, 0, 1, 0},{0,1,1,1,},{0,1,0,0}};
-        System.out.println(new SolutionTwo().maxAreaOfIsland(p));
+        System.out.println(new 岛屿的最大面积().maxAreaOfIsland(p));
     }
 
 }

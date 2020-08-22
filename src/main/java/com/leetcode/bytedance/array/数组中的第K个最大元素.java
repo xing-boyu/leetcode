@@ -1,6 +1,8 @@
 package com.leetcode.bytedance.array;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/243/array-and-sorting/1018/
+ *
  * 题目：数组中的第K个最大元素
  * 在未排序的数组中找到第 k 个最大的元素。请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
  *
@@ -18,7 +20,7 @@ package com.leetcode.bytedance.array;
  * 解题思路：1. 选择排序找到第k大个元素
  * 2. 快速排序的思想是找到一个位置左边位置值的都比其小，右边位置的值都比其大，所以刚好如果index == n-k 就是第k大个元素
  */
-public class SolutionFive {
+public class 数组中的第K个最大元素 {
 
     public int findKthLargest(int[] nums, int k) {
         int n = nums.length;
@@ -69,7 +71,7 @@ public class SolutionFive {
 
     public static void main(String[] args) {
         int[] nums = new int[]{3,2,3,1,2,4,5,5,6};
-        System.out.println(new SolutionFive().findKthLargestQuickSort(nums, 4));
+        System.out.println(new 数组中的第K个最大元素().findKthLargestQuickSort(nums, 4));
     }
 
 }

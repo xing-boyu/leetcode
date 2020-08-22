@@ -1,4 +1,4 @@
-package com.leetcode.bytedance.solution;
+package com.leetcode.graph;
 
 /**
  * https://leetcode-cn.com/problems/array-nesting/

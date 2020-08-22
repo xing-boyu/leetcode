@@ -1,6 +1,8 @@
 package com.leetcode.bytedance.string;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/242/string/1016/
+ *
  * 题目：给定两个字符串 s1 和 s2，写一个函数来判断 s2 是否包含 s1 的排列。
  *
  * 换句话说，第一个字符串的排列之一是第二个字符串的子串。
@@ -22,7 +24,7 @@ package com.leetcode.bytedance.string;
  *
  * 解题思路：将s1分为已经匹配完成和待匹配的字符串，当待匹配字符串中无字符后表示匹配成功。（主要都是字符串处理）
  */
-public class SolutionThree {
+public class 字符串的排列 {
 
     /**
      * 题目说明已经说了非空，入参就不判断了。
@@ -57,6 +59,6 @@ public class SolutionThree {
     }
 
     public static void main(String[] args) {
-        System.out.println(new SolutionThree().checkInclusion("ab", "eidboaoo"));
+        System.out.println(new 字符串的排列().checkInclusion("ab", "eidboaoo"));
     }
 }

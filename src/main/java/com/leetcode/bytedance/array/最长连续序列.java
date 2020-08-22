@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/243/array-and-sorting/1019/
+ *
  * 题目：最长连续序列
  * 给定一个未排序的整数数组，找出最长连续序列的长度。
  *
@@ -19,7 +21,7 @@ import java.util.Set;
  *
  * 后面看了别人的解题思路可以先判断下有向左一步元素存不存在set，如果不存在直接往右搜索就能得到结果。
  */
-public class SolutionSix {
+public class 最长连续序列 {
 
     public int longestConsecutive(int[] nums) {
         if(nums == null || nums.length == 0) {
@@ -56,7 +58,7 @@ public class SolutionSix {
 
     public static void main(String[] args) {
         int[] nums = new int[]{100, 4, 200, 1, 3, 2};
-        System.out.println(new SolutionSix().longestConsecutive(nums));
+        System.out.println(new 最长连续序列().longestConsecutive(nums));
     }
 
 }

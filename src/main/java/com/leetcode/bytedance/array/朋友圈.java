@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/243/array-and-sorting/1036/
+ *
  * 题目：朋友圈
  *
  * 班上有 N 名学生。其中有些人是朋友，有些则不是。他们的友谊具有是传递性。如果已知 A 是 B 的朋友，B 是 C 的朋友，那么我们可以认为 A 也是 C 的朋友。所谓的朋友圈，是指所有朋友的集合。
@@ -35,7 +37,7 @@ import java.util.Set;
  * 解题思路：广度遍历（每个节点作为遍历起点进行遍历，已经遍历过的就不用再进行遍历，如果所有的节点都已遍历完得到结果）
  *
  */
-public class SolutionEight {
+public class 朋友圈 {
     public int findCircleNum(int[][] M) {
         int circleNum = 0;
 
@@ -73,7 +75,7 @@ public class SolutionEight {
         int[][] M = new int[][]{{1,1,0},
                 {1,1,0},
                 {0,0,1}};
-        int r = new SolutionEight().findCircleNum(M);
+        int r = new 朋友圈().findCircleNum(M);
         System.out.println(r);
     }
 }

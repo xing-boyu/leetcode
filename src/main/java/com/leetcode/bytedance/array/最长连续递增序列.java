@@ -1,6 +1,8 @@
 package com.leetcode.bytedance.array;
 
 /**
+ * https://leetcode-cn.com/explore/interview/card/bytedance/243/array-and-sorting/1035/
+ *
  * 题目：最长连续递增序列
  * 给定一个未经排序的整数数组，找到最长且连续的的递增序列，并返回该序列的长度。
  *
@@ -23,7 +25,7 @@ package com.leetcode.bytedance.array;
  * 解题思路：水题，直接遍历一遍数组即可以找对最长且连续的升序子序列
  *
  */
-public class SolutionFour {
+public class 最长连续递增序列 {
 
     public int findLengthOfLCIS(int[] nums) {
         if(nums == null || nums.length == 0) {
@@ -54,7 +56,7 @@ public class SolutionFour {
 
     public static void main(String[] args) {
         int[] nums = new int[]{2,2,2,2,2};
-        System.out.println(new SolutionFour().findLengthOfLCIS(nums));
+        System.out.println(new 最长连续递增序列().findLengthOfLCIS(nums));
     }
 
 }

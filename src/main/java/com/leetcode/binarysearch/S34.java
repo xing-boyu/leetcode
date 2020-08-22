@@ -1,4 +1,4 @@
-package com.leetcode.bytedance.solution.binarysearch;
+package com.leetcode.binarysearch;
 
 import java.util.Arrays;
 

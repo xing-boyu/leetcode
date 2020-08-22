@@ -1,4 +1,4 @@
-package com.leetcode.bytedance.solution.greedy;
+package com.leetcode.greedy;
 
 /**
  * https://leetcode-cn.com/problems/can-place-flowers/
