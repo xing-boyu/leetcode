@@ -2,6 +2,8 @@ package com.leetcode.dynamicprogram;
 
 /**
  * https://leetcode-cn.com/problems/coin-change/
+ *
+ * 解题思路：动态规划方程 r[amount] = 1 + r[amount-coins[i]],i=0...coins.length
  */
 public class S322 {
 
