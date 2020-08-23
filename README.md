@@ -2,9 +2,10 @@
 来刷刷题找找码代码的乐趣。
 
 ### 算法分类
-  * [二分查找](https://github.com/xing-boyu/leetcode/blob/master/src/main/java/com/leetcode/binarysearch/README.md)
-  * [图与搜索](https://github.com/xing-boyu/leetcode/blob/master/src/main/java/com/leetcode/graph/README.md)
-  * [贪心算法](https://github.com/xing-boyu/leetcode/blob/master/src/main/java/com/leetcode/greedy/README.md)
+  * [二分查找](https://github.com/xing-boyu/leetcode/blob/master/src/main/java/com/leetcode/binarysearch)
+  * [图与搜索](https://github.com/xing-boyu/leetcode/blob/master/src/main/java/com/leetcode/graph)
+  * [贪心算法](https://github.com/xing-boyu/leetcode/blob/master/src/main/java/com/leetcode/greedy)
+  * [动态规划](https://github.com/xing-boyu/leetcode/tree/master/src/main/java/com/leetcode/dynamicprogram)
 
 ### 字节跳动
 
