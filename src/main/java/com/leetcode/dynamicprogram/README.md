@@ -1,6 +1,6 @@
 | 题目分类 | 题目编号 | 
 | :----:| :---: |
-| 数组中的动态规划 | 509、70、338、45、55、198、213、650、91、639、552、123、188、309、32、264、313、403 |
+| 数组中的动态规划 | [300](https://github.com/xing-boyu/leetcode/blob/master/src/main/java/com/leetcode/dynamicprogram/S300.java)、509、70、338、45、55、198、213、650、91、639、552、123、188、309、32、264、313、403 |
 | 子数组、子序列中的动态规划 | 689、413、446、368、416、279 |
 | 背包问题 | [322](https://github.com/xing-boyu/leetcode/blob/master/src/main/java/com/leetcode/dynamicprogram/S322.java)、518、474、494、377 |
 | 矩阵中的动态规划 | 62、63、64、120、576、688、221、629、174、96、329 |
